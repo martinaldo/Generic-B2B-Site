@@ -1,4 +1,11 @@
-<-- HomePage HTML Code -->
+
+
+<style>
+
+#pageBody{padding-top:0px;}
+#banner_slider{margin-bottom:30px;}
+
+</style>
 
 <!-- ========== Banner Slider img/banner ========== -->
 <div class="container">
