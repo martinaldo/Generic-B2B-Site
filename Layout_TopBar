@@ -1,0 +1,46 @@
+<!-- Dropdown Menus for each Category -->
+	
+	<div class="navbar navbar-main" role="navigation">
+		<div class="container">
+			<div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#mainBarMobile">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                </button>
+			    <a class="navbar-brand visible-xs-block" href="javascript:void(0)" data-toggle="collapse" data-target=".navbar-collapse">Menu</a>
+			
+			
+			<!-- Top Bar Nav by Category -->
+			<div id="mainBar" class="collapse navbar-collapse"  \>
+				<ul class="nav navbar-nav navmenu" id="mainBarList">
+				
+				<!-- Top Bar Drop Down Menu Nav // add 1 for each category -->
+	                <li id="li-cat_##" class="dropdown"> <!-- id=li-cat-CATEGORY ID -->
+					<a href="/category/##/#####.html" class="dropdown-toggle">##### <span class=" hidden-xs  hidden-sm caret"></span></a>
+					</li>
+				</ul>
+			</div>	
+
+			<!-- Top Bar Nav by Category // Mobile nav (no dropdowns) -->
+            <div id="mainBarMobile" class="collapse navbar-collapse">
+			
+                <ul class="nav navbar-nav navbar-menu" id="mainBarMobile-hide">
+				    <!-- Create a list item for each category -->
+                    <li><a href="/category/##/#####.html"> ##### </a></li>
+					<li><a href="/category/##/#####.html"> ##### </a></li>
+                </ul>
+				
+			</div>
+			
+			</div>
+		</div>
+	</div>
+	
+<script language="javascript">
+<!-- JS to append each list item with the dropdown menus.  Update this in the multi-store Horizontal CatIds in admin -->
+
+<!-- Create 1 of these for each category that will have a dropdown menu -->
+document.getElementById("li-cat_72").appendChild(document.getElementById("ul-cat_72"));
+</script>
