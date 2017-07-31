@@ -1,0 +1,109 @@
+<style type="text/css">
+/*
+ * Products Carousel
+ * --------------------------------------------------
+ */
+.products_carousel .product {
+  text-align: center;
+  margin: 5px;
+}
+.products_carousel .product .product_image_div {
+  margin-bottom: 15px;
+}
+.products_carousel .product .product_image_div a {
+  display: block;
+}
+.products_carousel .product .product_image_div img {
+  display: block;
+  margin: 0 auto;
+  max-width: 180px;
+  max-height: 180px;
+  height: auto;
+  border: 1px solid #ccc;
+}
+.products_carousel .product .product_name a {
+  color: #333;
+  font-weight: bold;
+  word-wrap: break-word;
+}
+.products_carousel .product .product_price {
+  color: #de1624;
+  margin-top: 5px;
+}
+</style>
+
+<script type="text/javascript">
+	$(function() {
+		$("#banner_slider").owlCarousel({
+			themeClass: 'slider-theme',
+			navText: ['<i class="fa fa-angle-left"></i>','<i class="fa fa-angle-right"></i>'],
+			items: 1,
+			loop: true,
+			nav: true,
+			dots: false,
+			autoplay: false,
+			autoplaySpeed: 2000,
+			navSpeed: 2000,
+			dotsSpeed: 2000,
+			dragEndSpeed: 1000,
+			autoplayTimeout: 7500,
+			responsive:{
+				0:{
+					nav: false,
+					dots: false,
+				},
+				768:{
+					nav: true,
+					dots: true
+				}
+			}
+		});
+
+		$(".products_carousel").owlCarousel({
+			themeClass: 'carousel-theme',
+			navText: ['<i class="fa fa-angle-left"></i>','<i class="fa fa-angle-right"></i>'],
+			loop:true,
+			dots: false,
+			autoplay: false,
+			margin: 15,
+			autoplayTimeout: 5000,
+			responsiveClass: true,
+			responsive:{
+				0:{
+					items: 1,
+					slideBy: 1,
+					nav: true
+				},
+				480:{
+					items: 2,
+					slideBy: 2,
+					nav: true
+				},
+				768:{
+					items: 3,
+					slideBy: 3,
+					nav: true
+				},
+				992:{
+					items: 4,
+					slideBy: 4,
+					nav: true
+				},
+				1200: {
+					items: 5,
+					slideBy: 5,
+					nav: true
+				}
+			}
+		});
+
+	});
+</script>
+
+<-- Moved to body html
+<style>
+
+#pageBody{padding-top:0px;}
+#banner_slider{margin-bottom:30px;}
+
+</style> -->
