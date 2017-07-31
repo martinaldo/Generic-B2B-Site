@@ -1,0 +1,140 @@
+<-- HomePage HTML Code -->
+
+<!-- ========== Banner Slider img/banner ========== -->
+<div class="container">
+<div id="banner_slider" class="banner_slider owl-carousel">
+
+<!-- Add one "slide" div for each banner slider -->
+<div class="slide"><a href="/category/##/Housewares.html">
+		<img src="/assets/img/banner/Arc_Splash_1.png" class="img-responsive center-block"></a>
+	</div>
+
+</div>
+</div>
+<!-- ========== END Banner Slider ========== -->
+
+
+<!-- ========== Categories Main Bar // Can Customize This Area ========= -->
+<div class="container">
+	<div class="row row-category">
+	<div class="col-xs-6 col-sm-3">
+	   <div class="category-each">
+		    <a href="/category/##/###.html" class="category_main_link" name="###">
+		<div class="category_name_main_wrapper">
+		    <img src="/assets/img/###.jpg" class="img-responsive">
+		<div class="category_name_main">####</div>
+		</div>
+		    </a>
+	  </div>
+	</div>
+	
+	
+	<div class="col-xs-6 col-sm-3">
+	<div class="category-each">
+	
+	</div>
+	</div>
+	
+	
+	<div class="col-xs-6 col-sm-3">
+	<div class="category-each">
+	
+	</div>
+	</div>
+	
+	
+	<div class="col-xs-6 col-sm-3">
+	<div class="category-each">
+		
+	</div>
+	</div>
+	
+	
+</div>
+</div>
+<!-- ======== END Categories Main Bar =========-->
+
+
+
+<!--========= Collections Bar // Can Customize This Area ==========-->
+<div class="container">
+<div class="col-xs-12">
+<div class="collections-bar">
+   
+    <div class="row">Browse By Collection:</div>
+    <div class="row">
+	
+    <div class="col-xs-12 col-sm-4">A - E
+        <a href="/category/###/####.html"><span class="collections-text">#####</span></a>
+    </div>
+		
+    <div class="col-xs-12 col-sm-4">F - O
+        <a href="/category/###/####.html"><span class="collections-text">######</span></a>
+    </div>
+	
+    <div class="col-xs-12 col-sm-4">P - Z
+        <a href="/category/###/####.html"><span class="collections-text">######</span></a>
+     </div>
+	 
+    </div>
+    </div>
+
+</div>
+</div>
+
+<!--========= END Brands & Collections Bar ==========-->
+
+
+<!-- Begin Tabbed Containers -->
+<div class="container">
+
+	<div class="tabs_wrapper">
+		<ul id="product-tabs" class="nav nav-tabs">
+			<li class="active"><a href="#featured_tab" data-toggle="tab">New Products</a></li>
+			
+			<!-- Toggle these for More Tabs 
+			<li><a href="#best_seller_tab" data-toggle="tab">Best Seller</a></li>
+			<li><a href="#latest_tab" data-toggle="tab">Latest</a></li>-->
+			
+		</ul>
+		
+	<div id="product-tabs-content" class="tab-content">
+			
+			<!-- ===== NEW PRODUCTS ===== -->
+			<div class="tab-pane fade in active" id="featured_tab">
+				<div class="products_carousel owl-carousel">
+					
+					<!-- Tab Product -- Add of of these for each product in the above tab, based on href & tab class id -->
+					<div class="product">
+					<div class="product_image_div">
+						<a href="/product/###/#####.html"><img src="/assets/Image/Product/thumb/##BlockCode_1.jpg"></a>
+					</div>
+						<div class="product_name"><a href="/product/###/#####.html">## Product Name ##</a>
+						</div>	
+					</div>
+					<!-- END Product -->
+					
+				</div>
+			</div>
+
+	</div>
+	</div>
+</div>
+
+<!-- END Tabbed Containers -->
+
+<!-- Begin Bottom Buttons Container -->
+<div class="container">
+	<div class="row">
+	<!-- #leftCol = Sign Up // #rightCol = Join Email List -->
+	<div class="col-xs-12 col-sm-6" id="leftCol">Want to Order Online?<br>
+		<a href="/category/##/Registration-Form.html" class="btn btn-lrg btn-leftCol">Click here to Register</a></div>
+	<div class="col-xs-12 col-sm-6" id="rightCol">Sign up for our Email List! <br>
+		<a href="/category/##/Email-List-Sign-Up.html" class="btn btn-lrg btn-rightCol">Click here to Join</a></div>
+	</div>
+	</div>
+
+<!-- END Bottom Button Container -->
+
+
+
