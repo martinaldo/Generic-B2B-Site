@@ -1,0 +1,51 @@
+<!--
+<div id="footer_wrapper">
+<div id="footer" class="container">
+<div class="row">
+<div class="col-sm-8 col-md-8">
+<form id="newsletter_subscribe" action="" method="">
+    <div class="input-group"><span class="input-group-addon subscribe_label"> 											Join Our Newsletter 										</span> 										<input type="text" class="form-control" placeholder="Email Address" /> 										<span class="input-group-btn"> 											<button class="btn subscribe_btn" type="submit">Subscribe</button> 										</span></div>
+</form>
+</div>
+<div class="col-sm-4 col-md-4">
+<ul id="footer_social_media">
+    <li class="facebook"><a href="#"></a></li>
+    <li class="twitter"><a href="#"></a></li>
+    <li class="google-plus"><a href="#"></a></li>
+    <li class="youtube"><a href="#"></a></li>
+</ul>
+</div>
+</div>
+</div>
+
+
+
+</div>
+-->
+<div class="stickyFooter">
+<div id="footer_bottom_wrapper">
+<div id="footer_bottom" class="container">
+<div class="copyright">&copy; Copyright 2016 - 2017 M. Block and Sons, Inc.  All Rights Reserved</div>
+</div>
+</div>
+</div>
+</div>
+<p>&nbsp;</p>
+<script type="text/javascript">
+  // Get URL
+  var url = window.location.href;
+
+  // Check if URL contains the keyword
+  if( url.search( 'perfectpodbymblock' ) > 0 ) {
+      // Display the message
+      document.getElementById("linkName").href="/category/302/Frequently-Asked-Questions.html"; 
+  } else if( url.search( 'keurigbymblock' ) > 0 ) {
+      // Display the message
+      document.getElementById("linkName").href="/category/91/FAQ.html"; 
+  }
+else if( url.search( 'arcbymblock' ) > 0 ) {
+      // Display the message
+      document.getElementById("linkName").href="/category/97/Frequently-Asked-Questions.html"; 
+  }
+  
+</script>
