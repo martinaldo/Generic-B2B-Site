@@ -1,0 +1,94 @@
+<p>Click on a link below to view answers to frequently asked questions.</p>
+
+<p>&nbsp;</p>
+<div class="faqPanel">
+<div class="container">
+<div class="faqPanel">
+  <div class="panel-group" id="accordion">
+  
+  
+  
+<!--##### PANEL 1 ##### -->
+    <div class="panel panel-default">
+      <div class="panel-heading">
+        <h4 class="panel-title">
+          <a data-toggle="collapse" data-parent="#accordion" href="#collapse1">
+<p>How do I obtain a login for this site?</p></h4></a>
+      </div>
+	  
+      <div id="collapse1" class="panel-collapse collapse">
+        <div class="panel-body">
+<p>Please contact our customer service team at <a href="mailto:###@mblock.com">###@mblock.com</a> with the e-mail address or addresses you would like to use to log in to the web site, along with your desired password.  Your sales rep organization can have as many logins as necessary and each login will be tied to all customers represented by your organization.</p>
+
+<p>M. Block customer service will set up your login and e-mail you when it is ready to use.  When it is ready, you can login in at the <a href="/srLogin.jhtm">Sales Rep Portal Login</a> page.</p>
+</div>
+    </div>
+	</div>
+	
+	<!--##### END PANEL 1 ##### -->
+	
+	
+	
+	<!--##### PANEL 2 ##### -->
+	
+    <div class="panel panel-default">
+      <div class="panel-heading">
+        <h4 class="panel-title">
+          <a data-toggle="collapse" data-parent="#accordion" href="#collapse2">
+How do I use the Sales Rep Portal?</a>
+  </div>
+      <div id="collapse2" class="panel-collapse collapse">
+        <div class="panel-body">
+<p>The Sales Rep Portal allows you to place orders for your customers and see the order status for orders you or your customer have placed.</p>
+
+<p>After you have logged in, click the "View My Customers" button to see a listing of all of your customers on the web site.  If a customer is active on the site, you will see their number of logins and orders placed, as well as the last order date and the total of their web orders.</p>
+
+<p><img src="/assets/Image/FAQ/SalesRep_FAQ_1.jpg" class="img-responsive" style="border: 1px solid #d3d3d3"></p>
+
+<p>To find a specific customer, you can search for their M. Block Account Number, or any of the fields listed at the top of the page.  The "First Name" field is used to search for the customer's company name.  </p>
+
+<p><img src="/assets/Image/FAQ/SalesRep_FAQ_2.jpg" class="img-responsive" style="border: 1px solid #d3d3d3"></p>
+
+<p>Once you've found the customer, click the "Login As Customer" link.  This will take you to the main web site where you are logged in with that customer's account.  When you are logged in as a customer, you will always see that customer's name in the header of the web site.  You can always check here when placing an order to make sure you have chosen the right customer.</p>
+
+<p><img src="/assets/Image/FAQ/SalesRep_FAQ_3.jpg" class="img-responsive" style="border: 1px solid #d3d3d3"></p>
+
+<p>When logged in as a customer, you can view their order history to find status information on each of the orders placed for them.  Click on "View My Order History/Status" to see each order, then click on "Order Details".  Here you will see the M. Block Order ID, one or more sub-orders, and the status of each sub order (Pending, Processing, Canceled, or Shipped).  An order is Pending until the MBlock Order ID is obtained, and then the status changes to Processing.  If the sub-order is on back order, the box will be checked in the Back Ordered column.  Click on the sub-order to see detailed line by line status information for the sub-order, including tracking information for shipped sub-orders.</p>
+
+<p>To place an order for a customer, you have a number of options to begin:
+<ul>
+<li>Click the "Start Shopping" link at the top of the customer's My Account dashboard page or the Arc by M. Block logo to go to the home page.</li>
+<li>Search for products in the search box in the upper right hand corner of every page.</li>
+<li>Select one of the main categories (Drinkware, Dinnerware, Houseware, Giftware, Brands, Collections) to view products by category.</li>
+</ul>
+</p>
+
+<p>Once you've located the product to buy, choose a quantity and click "Add to Cart".  Continue shopping until you have all required items in your cart, then from the View Cart page click "Checkout".  On the "Shipping & Payment Address & Billing Info" page, pay close attention to the Shipping Information section - this is where you will change the shipping address for the order.  If a customer has multiple store locations you need to pick the correct one for this order.  After picking the shipping address, you can change the shipping method if desired and fill in any of the fields below for PO Number, Requested Ship Date, etc.  When done filling in all the fields, click "Purchase" to place the order.</p>
+
+<p>When you place an order for your customer, you will receive an e-mail order confirmation.  If we have a valid e-mail address for your customer, they will receive a copy of the order confirmation as well.</p>
+
+<p>When you are done working with a specific customer, click the Logout button at the top of the screen.</p>
+<p><img src="/assets/Image/FAQ/SalesRep_FAQ_4.jpg" class="img-responsive" style="border: 1px solid #d3d3d3"></p>
+
+<p>To choose a new customer, click the Sales Rep Portal link at the bottom of the page, and then click "View My Customers". </p>
+
+<p>When you are done using the Sales Rep Portal, click Logout.</p>
+<p><img src="/assets/Image/FAQ/SalesRep_FAQ_5.jpg" class="img-responsive" style="border: 1px solid #d3d3d3"></p>
+
+</div>
+    </div>
+	</div>
+	</div>
+	
+	
+	
+
+<a class="btn btn-rightCol" href="/assets/downloads/###/###_B2B_Tutorial_SalesRep.pdf" download><i class="fa fa-file-pdf-o" aria-hidden="true"></i>
+    Click here to download our helpful Sales Rep How To Guide </a>
+
+
+
+
+    </div>
+	</div>
+</div>
