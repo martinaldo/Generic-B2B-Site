@@ -1,0 +1,35 @@
+<div class="shoppingCartWizard clearfix">
+<div class="wizard clearfix">
+<div class="wizard-bar" style="width: 33.333%;">
+<div class="wizard-step active clearfix">
+<div class="stepNmbr">1</div>
+<div class="stepDesc">
+Shopping Cart <br>
+Quantity &amp; Options
+</div>
+</div>
+</div>
+<div class="wizard-bar" style="width: 33.333%;">
+<div class="wizard-step active clearfix">
+<div class="stepNmbr">2</div>
+<div class="stepDesc">
+Shipping &amp; Payment <br>
+Address &amp; Billing Info
+</div>
+</div>
+</div>
+<div class="wizard-bar" style="width: 33.333%;">
+<div class="wizard-step clearfix">
+<div class="stepNmbr">3</div>
+<div class="stepDesc">
+Order Information <br>
+Thank You For Shopping
+</div>
+</div>
+</div>
+</div>
+<div class="progress">
+<div class="progress-bar" style="width: 33.333%;"></div>
+<div class="progress-bar" style="width: 33.333%;"></div>
+</div>
+</div>
