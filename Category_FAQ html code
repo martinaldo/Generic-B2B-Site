@@ -1,0 +1,101 @@
+<div class="container">
+<div class="faqPanel">
+
+<div class="panel-group" id="accordion">
+    
+	
+	<!-- ##### BEGIN PANEL 1 How Do I Get Started ##### --> 
+	<div class="panel panel-default">
+        <div class="panel-heading">
+            <h4 class="panel-title">
+            <a data-toggle="collapse" data-parent="#accordion" href="#collapse1">How do I get started ordering online?</h4></a>
+        </div>
+	  
+        <div id="collapse1" class="panel-collapse collapse">
+        <div class="panel-body">
+		    <p>All customers for the Arc by MBlock site must fill out the <a href="/category/##/Registration-Form.html">Registration Form</a>.</p>
+            <p>Once the Registration Form is completed, you will receive an e-mail within 2 business days with instructions for setting your password for the site. If there are any questions regarding your request, a representative from our Customer Service team will contact you.</p>
+        </div>
+        </div>
+	</div>
+	<!-- ##### END PANEL 1 ##### --> 
+	
+	
+	<!-- ##### BEGIN PANEL 2 What Happens After I Place My Order ###### --> 
+    <div class="panel panel-default">
+        <div class="panel-heading">
+            <h4 class="panel-title">
+            <a data-toggle="collapse" data-parent="#accordion" href="#collapse2">What happens after I place my order?</h4></a>
+        </div>
+		
+        <div id="collapse2" class="panel-collapse collapse">
+        <div class="panel-body">
+		    <p>Once the order is placed, an email will be sent with the Order # and a link containing a copy of the receipt.</p><p>  Any time after an order has been placed, the customer can log back into the website to view the status of an order by selecting <strong>My Account</strong> at the top of the site.  The section named My Order List will contain <strong>View My Order History/Status</strong> which will list all orders. 
+            By selecting <strong>Order Details</strong>, the status of any sub-order can be selected.</p>  <img src="/assets/img/###_faq_orderhistory.jpg" class="img-responsive">
+            <p>The Order Details page will show the status of the suborder (Pending, Processing, Canceled, or Shipped).  An order is Pending until the MBlock Order ID is obtained, and then the status changes to Processing.  If the sub-order is on back order, the box will be checked in the Back Ordered column. 
+            Once a sub-order ships, an email will be sent with the tracking number(s) and receipt of the order.  Cancelled orders will receive an email from customer service as well.</p>
+            <img src="/assets/img/###_faq_orderdetails.jpg" class="img-responsive"><br>
+            <p>If at any time there are questions about an order, the customer can contact customer service at <a href="tel:8006218845" style="color: #25282f">(800) 621-8845</a> or email <a href="mailto:###@mblock.com">###web@mblock.com</a>.</p>
+        </div>
+        </div>
+	</div>
+	<!-- ##### END PANEL 2 ##### --> 
+	
+	
+	
+	<!-- ##### BEGIN PANEL 3 How Do I Use My List ###### -->
+    <div class="panel panel-default">
+        <div class="panel-heading">
+            <h4 class="panel-title">
+            <a data-toggle="collapse" data-parent="#accordion" href="#collapse3">How do I use <i>My List</i>? </h4></a>
+        </div>
+
+        <div id="collapse3" class="panel-collapse collapse">
+        <div class="panel-body">
+		    <p>Rather than adding items directly to the shopping cart, you have the option of adding any item to the <b>My List</b> feature of this site.  The <b>My List</b> feature will allow you to review the items added to the list and determine which ones you'd like to add to the shopping cart.
+            The <b>Add to My List</b> button is located next to the <b>Add to Cart</b> button on each product page.</p>
+            <p><img src="/assets/img/###_faq_addmylist.jpg" class="img-responsive"></p>
+            <p>To access the <b>My List</b> Section, click on the <b>My Account</b> link at the top of the site.</p>
+            <p>In the <b>My List</b> section of the <b>My Account</b> page, select View My List to view items already added to your My List page. Items can be added from to the shopping cart by selecting the check box, and entering the amount desired for purchase in the Quantity field. Use the <b>Add to Cart</b> button to add the selected items to the shopping cart. This feature can be especially useful when making repeat orders or creating groups of items.</p>
+            <p><img src="/assets/img/###_faq_addcart.jpg" class="img-responsive"></p>
+            <p>Items added to <b>My List</b> can also be <b>Group Lists</b>. To create a <b>Group List</b>, go to the <b>My List</b> section of the <b>My Account</b> page, select <b>View Group List</b>.  Enter a name for your new group and select the <b>Add Group</b> button.  Once the group has been created, items can be added to the group from the <b>My List</b> page by selecting the desired items, select the appropriate group using the <b>Select Group</b> pulldown menu, and selecting <b>Add To Group</b> using the <b>Select Action</b> pulldown menu.</p>
+            <p><img src="/assets/img/###_faq_addmygroup.jpg" class="img-responsive"></p>
+            <p><b>View PDF</b> option on the <b>Group List</b> will generate a .pdf document with images & product details of the items currently listed in the group.</p>
+            <p>The <b>Export My List</b> feature will export a Microsoft Excel spreadsheet which will list all of the items currently listed in your <b>My List</b>.</p>
+        </div>
+        </div>
+    </div>
+    <!-- ##### END PANEL 3 ###### -->
+
+
+    <!-- ##### BEGIN PANEL 4 How Do I Obtain Additional Logins ###### -->
+    <div class="panel panel-default">
+        <div class="panel-heading">
+            <h4 class="panel-title">
+            <a data-toggle="collapse" data-parent="#accordion" href="#collapse4">How do I obtain additional logins?</h4></a>
+        </div>
+  
+        <div id="collapse4" class="panel-collapse collapse">
+        <div class="panel-body">
+            <p>Once your retailer account has been set up at M. Block and Sons with access to this site, you may have as many additional logins as you need.  Logins are tied to e-mail addresses, so each team member with an e-mail address can have their own login.</p>
+            <p>There are two options for obtaining additional logins:</p>
+            <p>
+                <ol>
+                    <li>Fill out the <a href="/category/##/Registration-Form.html">Registration Form</a> again for each e-mail address that needs a login.</li>
+                    <li>Contact our <a href="/category/##/Contact-Us.html">Customer Service team</a> with your account number and the e-mail address(es) you would like to have a login.</li>
+                </ol>
+            </p>
+        </div>
+        </div> 
+    </div>
+<!-- ##### END PANEL 4 ###### -->
+
+
+</div>
+
+<!-- ##### DOWNLOAD BUTTON FOR HOW TO ##### -->
+<a class="btn btn-rightCol" href="/assets/downloads/###/###byMBlock_B2B_Tutorial_CustomerAccount.pdf" download><i class="fa fa-file-pdf-o" aria-hidden="true"></i>
+    Click here to download our helpful How To Guide </a>
+	</div>
+</div>
+<p><center>If you have additional questions, please contact customer service at <a href="tel:v8006218845" style="color: #25282f">(800) 621-8845</a> or email <a href="mailto:###web@mblock.com">###web@mblock.com</a>.</p>
