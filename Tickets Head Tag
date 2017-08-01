@@ -1,0 +1,128 @@
+<link rel="shortcut icon" href="/assets/img/favicon.ico">
+<title>Tickets</title>
+
+<!-- ========================= CSS ========================= -->
+<!-- Bootstrap -->
+<link rel="stylesheet" type="text/css" href="/assets/css/bootstrap.min.css">
+<link rel="stylesheet" type="text/css" href="/assets/css/bootstrap-theme.min.css">
+<!-- Font Awesome -->
+<link rel="stylesheet" type="text/css" href="/assets/css/font-awesome.min.css">
+<!-- SmartMenus -->
+<link rel="stylesheet" type="text/css" href="/assets/plugins/smartmenus/addons/bootstrap/jquery.smartmenus.bootstrap.css">
+<!-- Star Rating -->
+<link rel="stylesheet" type="text/css" href="/assets/plugins/star-rating/css/star-rating.css">
+<!-- intlTelInput -->
+<link rel="stylesheet" type="text/css" href="/assets/css/intlTelInput.css">
+<!-- Bootstrap DateTimePicker -->
+<link rel="stylesheet" type="text/css" href="/assets/css/bootstrap-datetimepicker.css">
+<!-- Animate CSS -->
+<link rel="stylesheet" type="text/css" href="/assets/plugins/animate/animate.min.css">
+<!-- OwlCarousel -->
+<link rel="stylesheet" type="text/css" href="/assets/plugins/owl-carousel/css/owl.carousel.min.css">
+<link rel="stylesheet" type="text/css" href="/assets/plugins/owl-carousel/css/owl.theme.default.min.css">
+<link rel="stylesheet" type="text/css" href="/assets/css/owl-carousel-themes/banner_slider_theme.css">
+<link rel="stylesheet" type="text/css" href="/assets/css/owl-carousel-themes/products_carousel_theme.css">
+<link rel="stylesheet" type="text/css" href="/assets/css/owl-carousel-themes/thumbnails_carousel_theme.css">
+<!-- Cloud Zoom -->
+<link rel="stylesheet" type="text/css" href="/assets/plugins/cloudzoom/cloudzoom.css">
+<!-- FancyBox -->
+<link rel="stylesheet" type="text/css" href="/assets/plugins/fancyBox/jquery.fancybox.css">
+<link rel="stylesheet" type="text/css" href="/assets/plugins/fancyBox/helpers/jquery.fancybox-buttons.css">
+<link rel="stylesheet" type="text/css" href="/assets/plugins/fancyBox/helpers/jquery.fancybox-thumbs.css">
+<!-- Page Styles -->
+<link rel="stylesheet" type="text/css" href="/assets/css/webjaguar.css">
+<link rel="stylesheet" type="text/css" href="/assets/css/styles.css">
+
+<!-- MBlock Styles -->
+<link rel="stylesheet" type="text/css" href="/assets/css/arcstyles.css">
+<link rel="stylesheet" type="text/css" href="/assets/css/ppodstyles.css">
+
+
+<!-- ========================= JS ========================= -->
+<!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+<!--[if lt IE 9]>
+	<script src="/assets/js/libs/html5shiv.min.js"></script>
+	<script src="/assets/js/libs/respond.min.js"></script>
+<![endif]-->
+<!-- jQuery Library -->
+<script type="text/javascript" src="/assets/js/libs/jquery.min.js"></script>
+<!-- Bootstrap -->
+<script type="text/javascript" src="/assets/js/libs/bootstrap.min.js"></script>
+<!-- SmartMenus -->
+<script type="text/javascript" src="/assets/plugins/smartmenus/jquery.smartmenus.min.js"></script>
+<script type="text/javascript" src="/assets/plugins/smartmenus/addons/bootstrap/jquery.smartmenus.bootstrap.min.js"></script>
+<script type="text/javascript" src="/assets/plugins/smartmenus/addons/keyboard/jquery.smartmenus.keyboard.min.js"></script>
+<!-- Star Rating -->
+<script type="text/javascript" src="/assets/plugins/star-rating/js/star-rating.js"></script>
+<!-- Modernizr -->
+<script type="text/javascript" src="/assets/js/libs/modernizr.js"></script>
+<!-- intlTelInput -->
+<script type="text/javascript" src="/assets/js/libs/intlTelInput.min.js"></script>
+<!-- Bootstrap Tab Collapse -->
+<script type="text/javascript" src="/assets/plugins/bootstrap-tabcollapse/bootstrap-tabcollapse.min.js"></script>
+<!-- Moment.js -->
+<script type="text/javascript" src="/assets/js/libs/moment.min.js"></script>
+<!-- Bootstrap DateTimePicker -->
+<script type="text/javascript" src="/assets/js/libs/bootstrap-datetimepicker.min.js"></script>
+<!-- OwlCarousel -->
+<script type="text/javascript" src="/assets/plugins/owl-carousel/js/owl.carousel.min.js"></script>
+<!-- Cloud Zoom -->
+<script type="text/javascript" src="/assets/plugins/cloudzoom/cloudzoom.js"></script>
+<!-- FancyBox -->
+<script type="text/javascript" src="/assets/plugins/fancyBox/jquery.mousewheel-3.0.6.pack.js"></script>
+<script type="text/javascript" src="/assets/plugins/fancyBox/jquery.fancybox.pack.js"></script>
+<script type="text/javascript" src="/assets/plugins/fancyBox/helpers/jquery.fancybox-buttons.js"></script>
+<script type="text/javascript" src="/assets/plugins/fancyBox/helpers/jquery.fancybox-thumbs.js"></script>
+<script type="text/javascript" src="/assets/plugins/fancyBox/helpers/jquery.fancybox-media.js"></script>
+<!-- Page JS -->
+<script type="text/javascript" src="/assets/js/init/webjaguar.js"></script>
+
+<script type="text/javascript">
+	$(function(){
+		$('#cloudzoom_1').bind('click',function(){
+			var cloudZoom = $(this).data('CloudZoom');
+			cloudZoom.closeZoom();
+			$.fancybox.open(cloudZoom.getGalleryList());
+			return false;
+		});
+	});
+	CloudZoom.quickStart();
+</script>
+
+<script type="text/javascript">
+	$(function(){
+		$('.products_carousel').owlCarousel({
+			navText: ['<span class="fa fa-angle-left"></span>','<span class="fa fa-angle-right"></span>'],
+			margin: 15,
+			nav: true,
+			dots: false,
+			loop: true,
+			rewind: true,
+			autoplay: true,
+			autoplayTimeout: 5000,
+			responsive:{
+				0:{
+					items: 2,
+					slideBy: 2
+				},
+				480:{
+					items: 3,
+					slideBy: 3
+				},
+				768:{
+					items: 4,
+					slideBy: 4
+				},
+				992:{
+					items: 5,
+					slideBy: 5
+				},
+				1200: {
+					items: 6,
+					slideBy: 6
+				}
+			}
+		});
+	});
+</script>
+
