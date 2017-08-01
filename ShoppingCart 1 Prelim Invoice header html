@@ -1,0 +1,45 @@
+<div class="shoppingCartWizard clearfix">
+<div class="wizard clearfix">
+<div class="wizard-bar" style="width: 33.333%;">
+<div class="wizard-step active clearfix">
+<div class="stepNmbr">1</div>
+<div class="stepDesc">
+Shopping Cart <br>
+Quantity &amp; Options
+</div>
+</div>
+</div>
+<div class="wizard-bar" style="width: 33.333%;">
+<div class="wizard-step active clearfix">
+<div class="stepNmbr">2</div>
+<div class="stepDesc">
+Shipping &amp; Payment <br>
+Address &amp; Billing Info
+</div>
+</div>
+</div>
+<div class="wizard-bar" style="width: 33.333%;">
+<div class="wizard-step clearfix">
+<div class="stepNmbr">3</div>
+<div class="stepDesc">
+Order Information <br>
+Thank You For Shopping
+</div>
+</div>
+</div>
+</div>
+<div class="progress">
+<div class="progress-bar" style="width: 33.333%;"></div>
+<div class="progress-bar" style="width: 33.333%;"></div>
+</div>
+</div>
+
+<p style="font-weight:bold; font-size: 120%">Please note:
+<ul style="font-size: 110%">
+<li>Shipping Charges will be added to the order once they have been determined, unless the order ships LTL freight collect on your account.</li>
+<li>To add, update, or remove a shipping address, please contact customer service using the Contact Us link at the top.</li>
+<li>Payment method is based on your M. Block account; to change your payment method please contact customer service.</li>
+<li>Please contact customer service for availability of out of stock items.</li>
+<li>Please review our <a href="category/77/Terms-and-Conditions.html">Terms and Conditions</a> before placing your order.</li>
+</ul>
+</p>
