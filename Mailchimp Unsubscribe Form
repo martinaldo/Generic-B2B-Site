@@ -1,0 +1,185 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html>
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <!-- Change the width below to just wider than your form's width
+    to optimize its initial scale on Apple iOS  and Android devices -->
+    <meta name="viewport" content="width=640">
+
+    <title>Unsubscribe from ### by MBlock</title>
+    <style>
+        <!-- body {
+            background-color: #f5f5f5;
+            font-family: verdana;
+            font-size: 12px;
+            text-align: center;
+            min-width: 500px;
+            margin: 50 0 0 0;
+        }
+
+        p {
+            line-height: 18px;
+        }
+
+        .container {
+            width: 400px;
+            padding: 20px;
+            margin-left: auto;
+            margin-right: auto;
+        }
+
+        .pageTitle {
+            background-color: #06357a;
+            padding: 8px;
+            font-size: 16px;
+            font-weight: bold;
+            color: #FFFFFF;
+            text-align: left;
+        }
+
+             .formLabel {
+            font-size: 13px;
+        }
+
+        .error {
+            color: #FF0000;
+            font-weight: bold;
+            font-size: 11px;
+        }
+
+        .small {
+            font-size: 11px;
+        }
+		
+		#mc_embed_signup{
+	background:#f5f5f5; 
+    clear:left;
+    font:14px Roboto,sans-serif; 
+    color:#06357a; 
+	border-radius:8px;
+	padding 20px;
+    border: 1px solid #d5d5d5;
+ }
+ 
+#mc_embed_signup_scroll h2 {
+	color:#000;
+}
+
+.asterisk{
+	color:#96c0e6 !important;
+}
+
+input{
+margin:10px;}
+
+input[type=text] {
+    padding:5px; 
+    border:2px solid #ccc; 
+    -webkit-border-radius: 5px;
+    border-radius: 5px;
+}
+
+input[type=text]:focus {
+    border-color:#333;
+}
+
+input[type=text]:hover {
+    border-color:#06357a;
+}
+
+input[type=submit] {
+    padding:5px 15px; 
+    background:#ccc; 
+    border:0 none;
+    cursor:pointer;
+    -webkit-border-radius: 5px;
+    border-radius: 5px; 
+}
+
+input[type=submit]:hover {
+    background-color:#06357a;
+    color:#FFF;
+}
+
+.mc-field-group{
+	margin-bottom: 8px;
+}
+
+#mc_embed_signup label{
+	margin-bottom: 15px;
+}
+
+#mc_embed_signup input,
+#mc_embed_signup input::-webkit-input-placeholder {
+    font-size: 11px;
+    padding-top: 3px;
+}
+
+
+#mc_embed_signup .form-control {
+    height: auto!important;
+padding: 8px 12px !important;
+}
+#mc_embed_signup .input-group {
+    -webkit-box-shadow: 0px 2px 5px 0px rgba(0,0,0,0.21)!important;
+    -moz-box-shadow: 0px 2px 5px 0px rgba(0,0,0,0.21)!important;
+    box-shadow: 0px 2px 5px 0px rgba(0,0,0,0.21)!important;
+}
+
+
+#mc_embed_signup span.input-group-addon i {
+    color: #06357a;
+    font-size: 17px;
+}
+
+
+
+#mc_embed_signup p {
+color: #06357a !important;
+}
+
+
+#centerdiv {
+    position:fixed;
+    top: 50%;
+    left: 50%;
+    width:30em;
+    height:18em;
+    margin-top: -9em; /*set to a negative number 1/2 of your height*/
+    margin-left: -15em; /*set to a negative number 1/2 of your width*/
+
+}
+        -->
+    </style>
+</head>
+
+
+<body>
+
+<div id="centerdiv">
+    <div class="container">
+	<div id="mc_embed_signup">
+        <div class="pageTitle">Unsubscribe</div>
+        <p><strong>Enter your email address to unsubscribe from the Arc by MBlock Email List:</strong></p>
+
+        <form id="mc-unsubscribe-form" action="https://mblock.us16.list-manage.com/unsubscribe/post" method="post">
+            <input type="hidden" name="u" value="be0ec9288e9d61eeb92b37733">
+            <input type="hidden" name="id" value="## LIST ID GOES HERE##">
+
+                    Email Address: 
+					<input type="text" value="*|EMAIL|*" name="EMAIL">
+                        <br>
+                        <span class="error">*|HTML:EMAILERROR|*</span>
+                
+                  <br>
+                        <input type="submit" name="submit" value="Unsubscribe">
+            <br>
+        </form>
+    </div>
+
+</div>
+</div>
+</body>
+
+</html>
