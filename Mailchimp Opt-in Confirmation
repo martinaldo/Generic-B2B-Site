@@ -1,0 +1,57 @@
+<body>
+
+    <style type="text/css">
+        body {
+            font-family: verdana, geneva;
+            font-size: 12px;
+            color:#000;
+            text-align: center
+        }
+
+        p {
+            line-height: 18px;
+        }
+
+        .small {
+            font-size: 11px;
+        }
+        a {
+        color: #000;
+        }
+        #confirmbtn a{
+       color:#96c0e6;
+        }
+        
+        #confirmbtn a:hover {
+        color:06357a;}
+        
+
+    </style>
+
+
+<b><h2>Thanks for signing up to our ### by MBlock Email List!</h2></b>
+    <br>
+
+    <p>
+        <span id="confirmbtn"><a href="https://mblock.us16.list-manage.com/subscribe/confirm?u=be0ec9288e9d61eeb92b37733&id=## LIST ID GOES HERE##&e=*|UNIQID|*"><b>Click here to confirm your subscription to our list.</b></a></span>
+    </p>
+
+    <p><span class="small">
+        If you received this email by mistake, simply delete it. You won't be subscribed if you don't click the confirmation link above.
+    </span></p>
+
+    <p><span class="small">For questions about this list, please contact:<br>
+        <a href="mailto:###byMBlock@mblock.com">###byMBlock@mblock.com</a>
+    </span></p>
+
+
+    <span itemscope itemtype="http://schema.org/EmailMessage">
+        <span itemprop="description" content="We need to confirm your email address."/>
+            <span itemprop="action" itemscope itemtype="http://schema.org/ConfirmAction">
+            <meta itemprop="name" content="Confirm Subscription"/>
+                <span itemprop="handler" itemscope itemtype="http://schema.org/HttpActionHandler">
+                <meta itemprop="url" content="https://mblock.us16.list-manage.com/subscribe/smartmail-confirm?u=be0ec9288e9d61eeb92b37733&id=964a7f9e76&e=*|UNIQID|*&inline=true"/>
+                <link itemprop="method" href="http://schema.org/HttpRequestMethod/POST"/>
+                </span>
+            </span>
+        </span>
